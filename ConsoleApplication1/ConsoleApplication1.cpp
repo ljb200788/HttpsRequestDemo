@@ -15,15 +15,13 @@
 #include <windows.h>
 #include "WininetHttp.h"
 #include "curl\include\curl.h"
-
+#include "Thread.h"
 #include "ylog.h"
 
 using namespace httpparser;
 using namespace std;
 using namespace LUrlParser;
 
-
-#include "Thread.h"
 
 class MyThread : public Thread
 {
